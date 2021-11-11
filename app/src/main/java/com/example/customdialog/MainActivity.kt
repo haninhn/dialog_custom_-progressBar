@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             alertDialogFunction()
         }
         val btnCustomProgressDialog : Button = findViewById(R.id.btn_custom_progress_dialog)
-        btnAlertDialog.setOnClickListener { view ->
+        btnCustomProgressDialog.setOnClickListener { view ->
              CustomProgressDialogFunction()
         }
     }
